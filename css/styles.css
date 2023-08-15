@@ -379,6 +379,9 @@ button:not(:disabled) {
   margin-right: calc(-.5 * var(--bs-gutter-x));
   margin-left: calc(-.5 * var(--bs-gutter-x))
 }
+.row-margin{
+  margin-top: 2rem;
+}
 
 .row>* {
   flex-shrink: 0;
@@ -3059,7 +3062,8 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0
+  padding: 6rem 0;
+  margin-top: 2.5rem;
 }
 
 .page-section .page-section-heading {
@@ -3196,8 +3200,8 @@ html {
   line-height: 2.75rem
 }
 
-.masthead .masthead-subheading {
-  font-size: 1.25rem
+.masthead-subheading {
+  font-size: 2rem;
 }
 
 .masthead .masthead-avatar {
