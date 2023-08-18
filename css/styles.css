@@ -370,6 +370,12 @@ button:not(:disabled) {
   }
 }
 
+/* images */
+.skills-img {
+  width: 150px;
+  height: 150px;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
