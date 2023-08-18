@@ -604,6 +604,10 @@ button:not(:disabled) {
 }
 
 @media (min-width:1200px) {
+  .col-xl-skills {
+    flex: 0 0 auto;
+    width: 20%
+  }
   .col-xl {
     flex: 1 0 0%
   }
