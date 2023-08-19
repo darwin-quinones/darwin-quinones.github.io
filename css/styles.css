@@ -462,6 +462,11 @@ button:not(:disabled) {
   flex: 0 0 auto;
   width: 33.33333333%
 }
+.col-skills {
+  flex: 0 0 auto;
+  width: 45%
+ }
+ 
 
 .col-5 {
   flex: 0 0 auto;
