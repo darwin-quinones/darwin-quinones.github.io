@@ -7,6 +7,9 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Darwin's Page</title>
+    <!-- library for animations -->
+     <!-- Librerías -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons-->
@@ -56,14 +59,14 @@
     <section class="page-section about-section" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center">
-                    <img class="img-about" src="assets/img/portfolio/darwin-programming.svg" alt="">
+                <div class="col-md-6 text-center" data-aos="zoom-in">
+                    <img class="img-about" src="assets/img/portfolio/darwin-programming.svg" alt="programming ilustration">
                 </div>
                 <div class="col-md-6 mt-4">
                     <h2 class="page-section-heading text-secondary">Hello, I am </h2>
                     <h2 class="page-section-heading text-name mt-4">Darwin Quiñones </h2>
-                    <h2 class="page-section-heading text-secondary text-uppercase mt-4">Full-Stack Developer</h2>
-                    <p class="mt-3 title text-justify">with over 2 years of experience in web development. I specialize in building
+                    <h2 id="typing" class="page-section-heading text-secondary text-uppercase mt-4"></h2>
+                    <p class="mt-3 title text-justify"  data-aos="fade-right">with over 2 years of experience in web development. I specialize in building
                         scalable high-performance web applications using modern web technologies.
                         If you are looking for a developer who is passionate about technology, proactive and
                         inquisitive. Feel free to contact!
@@ -77,9 +80,9 @@
     <section class="page-section" id="about">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary">About</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary" data-aos="fade-up" >About</h2>
             <!-- About Section Content-->
-            <div class="row row-margin">
+            <div class="row row-margin" data-aos="fade-right">
                 <div class="col-lg-4 ms-auto">
                     <p class="title text-justify">Darwin is a developer who possesses an insatiable appetite for learning, a quality
                         that consistently enhances his professional, academic, and personal endeavors. This unceasing
@@ -98,46 +101,46 @@
     <!-- skills Section -->
     <section class="page-section" id="skills">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Skills</h2><br>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3" data-aos="fade-up">Skills</h2><br>
             <div class="row justify-content-center skills-gap">
 
-                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills ">
+                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills " data-aos="fade-up" data-aos-duration="500">
                     <img class="skills-img" src="assets/img/portfolio/react.svg" alt="react">
                     <p>React JS</p>
                 </div>
-                <div class="card-skills col-skills col-45 col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-45 col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="700">
                     <img class="skills-img" src="assets/img/portfolio/laravel.svg" alt="react">
                     <p>Laravel</p>
                 </div>
-                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="900">
                     <img class="skills-img" src="assets/img/portfolio/django.svg" alt="react">
                     <p>Django</p>
                 </div>
-                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="1100">
                     <img class="skills-img" src="assets/img/portfolio/database.svg" alt="react">
                     <p>Database</p>
                 </div>
-                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="1300">
                     <img class="skills-img" src="assets/img/portfolio/csharp.svg" alt="react">
                     <p>C#</p>
                 </div>
-                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-4 col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="500">
                     <img class="skills-img" src="assets/img/portfolio/bootstrap.svg" alt="react">
                     <p>Bootstrap</p>
                 </div>
-                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="700">
                     <img class="skills-img" src="assets/img/portfolio/git.svg" alt="react">
                     <p>Git</p>
                 </div>
-                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="900">
                     <img class="skills-img" src="assets/img/portfolio/github.svg" alt="react">
                     <p>GitHub</p>
                 </div>
-                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="1100">
                     <img class="skills-img" src="assets/img/portfolio/trello.svg" alt="react">
                     <p>Trello</p>
                 </div>
-                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills">
+                <div class="card-skills col-skills col-md-3 col-lg-skills col-xl-skills" data-aos="fade-up" data-aos-duration="1300">
                     <img class="skills-img" src="assets/img/portfolio/office.svg" alt="react">
                     <p>Office Automation</p>
                 </div>
@@ -147,9 +150,9 @@
     <!-- Training section -->
     <section class="page-section" id="training">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Training</h2><br>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3" data-aos="fade-up">Training</h2><br>
             <div class="row justify-content-center">
-                <div class="col-6 col-md-4 flip-card">
+                <div class="col-6 col-md-4 flip-card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/unad-logo.png" alt="UNAD logo">
@@ -166,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 flip-card">
+                <div class="col-6 col-md-4 flip-card" data-aos="fade-up" data-aos-duration="500">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/english-live.png" alt="EF logo">
@@ -182,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 flip-card">
+                <div class="col-6 col-md-4 flip-card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/sena-logo.png" alt="SENA logo">
@@ -198,7 +201,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 flip-card">
+                <div class="col-6 col-md-4 flip-card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/platzi-logo.png" alt="Platzi logo">
@@ -214,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 flip-card">
+                <div class="col-6 col-md-4 flip-card" data-aos="fade-up" data-aos-duration="500">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/open-bootcamp.png" alt="open bootcamp logo">
@@ -231,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 flip-card">
+                <div class="col-6 col-md-4 flip-card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/sena-logo.png" alt="SENA logo">
@@ -255,7 +258,7 @@
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="fade-up">Portfolio</h2>
 
             <!-- Icon Divider-->
             <div class="divider-custom">
@@ -264,11 +267,11 @@
                 <div class="divider-custom-line"></div>
 
             </div><br>
-            <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0">Developed projects</h4> <br>
+            <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="fade-up">Developed projects</h4> <br>
 
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-4 mb-5"data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-duration="500">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -278,7 +281,7 @@
                         <img class="img-fluid" src="assets/img/portfolio/experientime.png" alt="tourscrapp" />
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -289,7 +292,7 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -300,7 +303,7 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-duration="500">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -311,7 +314,7 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -322,7 +325,7 @@
                     </div>
                 </div>
                 <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -351,7 +354,7 @@
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="fade-up">Contact</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -361,8 +364,8 @@
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
-                    <p class="text-center title">darwinquinones735@gmail.com</p>
-                    <p class="text-center title">+57 3135080062</p>
+                    <p class="text-center title" data-aos="fade-left">darwinquinones735@gmail.com</p>
+                    <p class="text-center title" data-aos="fade-left">+57 3135080062</p>
                 </div>
             </div>
         </div>
@@ -372,7 +375,7 @@
         <div class="container">
             <div class="row">
                 <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
                     <h4 class="text-uppercase mb-4">Location</h4>
                     <p class="lead mb-0">
                         Barranquilla, Atlántico
@@ -384,7 +387,7 @@
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Social Media</h4>
                     <a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.linkedin.com/in/darwin-quinones-sanchez" target="_blank">
+                        href="https://www.linkedin.com/in/darwin-quinones-sanchez" target="_blank" data-aos="fade-down">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-linkedin" viewBox="0 0 16 16">
                             <path
@@ -392,7 +395,7 @@
                         </svg>
                     </a>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/darwin-quinones"
-                        target="_blank">
+                        target="_blank" data-aos="fade-down">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
@@ -400,7 +403,7 @@
                         </svg>
                     </a>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/darquinones?s=09"
-                        target="_blank">
+                        target="_blank" data-aos="fade-down">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-twitter" viewBox="0 0 16 16">
                             <path
@@ -409,7 +412,7 @@
                     </a>
                 </div>
                 <!-- Footer About Text-->
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-left">
                     <h4 class="text-uppercase mb-4">Darwin's portfolio</h4>
                     <p class="lead mb-0">
                         This portfolio was created with ❤️ by Darwin Quiñones.
@@ -733,6 +736,24 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
+    <!-- TypeIt library -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit"></script>
+    <!-- animation library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        new TypeIt("#typing", {
+          strings: ["Full-Stack Developer"],
+          speed: 100,
+          loop: true, // Enable looping
+          loopDelay: 1000, // Delay between loops
+        }).go();
+      </script>
+
+    <script>
+        AOS.init();
+    </script>
+      
+
 
 
 </body>
