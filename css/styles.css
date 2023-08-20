@@ -481,6 +481,15 @@ button:not(:disabled) {
   max-width: 300px;
 }
 
+@media (max-width: 441px) {
+  .text-description {
+    font-size: 15px;
+  }
+}
+.about-section {
+  margin-top: 2.5rem;
+}
+
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -3201,8 +3210,8 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
-  margin-top: 2.5rem;
+  padding: 3rem 0;
+  /* margin-top: 2.5rem;  */
 }
 
 .page-section .page-section-heading {
@@ -3214,6 +3223,9 @@ html {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
+  }
+  .about-section {
+    margin-top: 6rem; 
   }
 }
 
