@@ -25,7 +25,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#">Darwin</a>
+            <a class="navbar-brand" href="#home">Darwin</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,10 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#skills">Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                    href="#training">Training</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
@@ -49,49 +53,50 @@
             </div>
         </div>
     </nav>
-    <!-- <section class="page-section about-section" id="about">
+    <section class="page-section about-section" id="home">
         <div class="container">
-           <div class="row">
-                <div class="col-md-6">
-                    <img src="assets/img/portfolio/darwin-programming.svg" alt="">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img class="img-about" src="assets/img/portfolio/darwin-programming.svg" alt="">
                 </div>
-                <div class="col-md-6">
-            
-                    <h2 class="page-section-heading text-center text-uppercase">About</h2>
-
+                <div class="col-md-6 mt-4">
+                    <h2 class="page-section-heading text-secondary">Hello, I am </h2>
+                    <h2 class="page-section-heading text-name mt-4">Darwin Quiñones </h2>
+                    <h2 class="page-section-heading text-secondary text-uppercase mt-4">Full-Stack Developer</h2>
+                    <p class="mt-3 title text-justify">with over 2 years of experience in web development. I specialize in building
+                        scalable high-performance web applications using modern web technologies.
+                        If you are looking for a developer who is passionate about technology, proactive and
+                        inquisitive. Feel free to contact!
+                    </p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- About Section-->
-    <!-- <br><br><br><br> -->
-    <section class="page-section bg-primary text-white about-section" id="about">
+
+    <section class="page-section" id="about">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-
-            </div>
-            <p class="masthead-subheading text-center font-weight-light mb-0">Full Stack Developer</p>
-
+            <h2 class="page-section-heading text-center text-uppercase text-secondary">About</h2>
             <!-- About Section Content-->
             <div class="row row-margin">
                 <div class="col-lg-4 ms-auto">
-                    <p class="lead">Darwin is a developer who possesses an insatiable appetite for learning, a quality that consistently enhances his professional, academic, and personal endeavors. This unceasing pursuit of knowledge contributes not only to his growth but also to his ability to connect with others on a deeper level.</p>
+                    <p class="title text-justify">Darwin is a developer who possesses an insatiable appetite for learning, a quality
+                        that consistently enhances his professional, academic, and personal endeavors. This unceasing
+                        pursuit of knowledge contributes not only to his growth but also to his ability to connect with
+                        others on a deeper level.</p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead">Driven by a constant desire for progress, I approach life with an innate curiosity and a penchant for exploration. This intrinsic motivation propels me to approach each task, pursuit, and interest with an enthusiastic and positive attitude, ensuring that I am fully engaged and committed to whatever I undertake and do.</p>
+                    <p class="title text-justify">Driven by a constant desire for progress, I approach life with an innate curiosity
+                        and a penchant for exploration. This intrinsic motivation propels me to approach each task,
+                        pursuit, and interest with an enthusiastic and positive attitude, ensuring that I am fully
+                        engaged and committed to whatever I undertake and do.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- skills Section -->
-    <section class="page-section">
+    <section class="page-section" id="skills">
         <div class="container">
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Skills</h2><br>
             <div class="row justify-content-center skills-gap">
@@ -140,7 +145,7 @@
         </div>
     </section>
     <!-- Training section -->
-    <section class="page-section">
+    <section class="page-section" id="training">
         <div class="container">
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Training</h2><br>
             <div class="row justify-content-center">
@@ -154,9 +159,10 @@
                         <div class="flip-card-back">
                             <p class="title">System Engineering</p>
                             <div class="text-description">
-                                <p>I have learned about programming languages, mathematics, logic, English, communication, and office automation. </p>
+                                <p>I have learned about programming languages, mathematics, logic, English,
+                                    communication, and office automation. </p>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -170,7 +176,8 @@
                         <div class="flip-card-back">
                             <p class="title">English</p>
                             <div class="text-description">
-                                <p>I have improved my listening, speaking, reading, and writing skills, and I continue to hone these English language skills. </p>
+                                <p>I have improved my listening, speaking, reading, and writing skills, and I continue
+                                    to hone these English language skills. </p>
                             </div>
                         </div>
                     </div>
@@ -185,7 +192,8 @@
                         <div class="flip-card-back">
                             <p class="title">Software Programming</p>
                             <div class="text-description">
-                                <p>I learned the basics of programming, algorithms, programming languages, databases, software testing, web development, and office automation.</p>
+                                <p>I learned the basics of programming, algorithms, programming languages, databases,
+                                    software testing, web development, and office automation.</p>
                             </div>
                         </div>
                     </div>
@@ -200,8 +208,9 @@
                         <div class="flip-card-back">
                             <p class="title">Backend development</p>
                             <div class="text-description">
-                                <p>I laid the foundations of programming, learned more about languages, web development, databases, English, and personal growth. </p>
-                            </div>                          
+                                <p>I laid the foundations of programming, learned more about languages, web development,
+                                    databases, English, and personal growth. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -209,14 +218,15 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img class="mt-3" src="assets/img/portfolio/open-bootcamp.png" alt="open bootcamp logo">
-                            <p class="title">YouTube, Open Bootcamp, <br>W3Schools</p>
-                            
+                            <p class="title">YouTube, Open Bootcamp, W3Schools</p>
+
                         </div>
                         <div class="flip-card-back">
                             <p class="title">Programming</p>
                             <div class="text-description">
-                                <p>These platforms have served as support to apply what I have learned, acquire more knowledge, and troubleshoot issues. </p>
-                                
+                                <p>These platforms have served as support to apply what I have learned, acquire more
+                                    knowledge, and troubleshoot issues. </p>
+
                             </div>
                         </div>
                     </div>
@@ -231,7 +241,8 @@
                         <div class="flip-card-back">
                             <p class="title">Accounting and Finance</p>
                             <div class="text-description">
-                                <p>I learned accounting, how to create balances, invoice, and provide customer service. </p>
+                                <p>I learned accounting, how to create balances, invoice, and provide customer service.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -340,7 +351,7 @@
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -350,8 +361,8 @@
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
-                    <p class="text-center">darwinquinones735@gmail.com</p>
-                    <p class="text-center">+57 3135080062</p>
+                    <p class="text-center title">darwinquinones735@gmail.com</p>
+                    <p class="text-center title">+57 3135080062</p>
                 </div>
             </div>
         </div>
@@ -435,9 +446,9 @@
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/tourscrapp.png"
                                     alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Tourscrapp is a recommendation system that uses web scraping based on
+                                <p class="mb-4 title text-justify">Tourscrapp is a recommendation system that uses web scraping based on
                                     hotels, restaurants, and activities to make in Barranquilla and its
-                                    surroundings.Tourscrapp was developed with the Django Framework, Python, JavaScript,
+                                    surroundings. Tourscrapp was developed with the Django Framework, Python, JavaScript,
                                     Jquery, Bootstrap, MySQL and ORM.</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -473,7 +484,7 @@
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sena-siginv.png"
                                     alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">SIGINV is an Inventory Management System that manages the processes of
+                                <p class="mb-4 title text-justify">SIGINV is an Inventory Management System that manages the processes of
                                     registration, request and return of tools, materials and equipment at the SENA
                                     Metalmecánica headquarters in Malambo.
                                     It was created using technologies such as PHP, JavaScript, MySQL, jQuery, Bootstrap,
@@ -521,7 +532,7 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="https://i.imgur.com/65QEu3Y.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Sean Innovation is a App that seeks to promote innovation with new
+                                <p class="mb-4 title text-justify">Sean Innovation is a App that seeks to promote innovation with new
                                     ideas. I was created with PHP, JavaScript, MySQL, jQuery, Bootstrap, MVC-PHP</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -556,7 +567,7 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ommi.png" alt="..." />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">I started to work on an inventory system for a shoe and clothing store.
+                                <p class="mb-4 title text-justify">I started to work on an inventory system for a shoe and clothing store.
                                     Omni is an Inventory system that will manage the sales and order processes in a
                                     clothing and footwear store.
                                     Some technologies implemented are: Python, JavaScript, Django, MySQL, and Bootstrap.
@@ -600,7 +611,7 @@
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/university.png"
                                     alt="..." />
 
-                                <p class="mb-4">This university project is a CRUD of courses. It was created with
+                                <p class="mb-4 title text-justify">This university project is a CRUD of courses. It was created with
                                     Python, Django MySQL HTML, CSS </p>
                                 <div class="container-btn-projects">
                                     <a href="">
@@ -646,7 +657,7 @@
                                     alt="experientime" />
                                 <!-- Portfolio Modal - Text-->
 
-                                <p class="mb-4">Experientime is a project I've developed with the objective of
+                                <p class="mb-4 title text-justify">Experientime is a project I've developed with the objective of
                                     showcasing my expertise and experiences using APIs, React.js, Laravel, and MySQL.
                                 </p>
 
@@ -694,7 +705,7 @@
                                     alt="experientime" />
                                 <!-- Portfolio Modal - Text-->
 
-                                <p class="mb-4">
+                                <p class="mb-4 title text-justify">
                                     Password Generator is a project created in Django which allows you to generate
                                     sucure passwords using a basic algorithm.
                                 </p>

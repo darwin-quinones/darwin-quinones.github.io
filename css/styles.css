@@ -312,6 +312,7 @@ button:not(:disabled) {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+
 }
 
 .img-fluid {
@@ -369,6 +370,18 @@ button:not(:disabled) {
     max-width: 1320px;
   }
 }
+
+/* about */
+.img-about {
+  max-width: 400px;
+}
+.text-name {
+  color: #15967d;
+}
+.text-justify {
+  text-align: justify
+}
+
 
 /* images */
 .skills-img {
@@ -478,16 +491,27 @@ button:not(:disabled) {
 }
 .text-description {
   max-width: 300px;
+  text-align: justify;
+  margin: .5rem; 
 }
 
 @media (max-width: 441px) {
   .text-description {
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .img-about {
+    max-width: 350px;
   }
 }
 .about-section {
-  margin-top: 2.5rem;
+  margin-top: 6rem;
 }
+
+
+
+
+
+
 
 
 .row {
@@ -586,6 +610,9 @@ button:not(:disabled) {
 }
 
 @media (min-width: 768px) {
+  .img-about {
+    max-width: 300px;
+  }
   .col-md-skills {
     flex: 0 0 auto;
     width: 30%;
@@ -661,6 +688,9 @@ button:not(:disabled) {
 }
 
 @media (min-width: 992px) {
+  .img-about {
+    max-width: 400px;
+  }
   .col-lg-skills {
     flex: 0 0 auto;
     width: 22%;
@@ -736,6 +766,9 @@ button:not(:disabled) {
 }
 
 @media (min-width: 1200px) {
+  .img-about {
+    max-width: 500px;
+  }
   .col-xl-skills {
     flex: 0 0 auto;
     width: 18%;
@@ -3209,7 +3242,7 @@ html {
 }
 
 .page-section {
-  padding: 3rem 0;
+  padding: 1rem 0;
   /* margin-top: 2.5rem;  */
 }
 
@@ -3224,7 +3257,7 @@ html {
     line-height: 2.5rem;
   }
   .about-section {
-    margin-top: 6rem; 
+    margin-top: 7rem; 
   }
 }
 
