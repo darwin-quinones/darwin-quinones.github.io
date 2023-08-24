@@ -3323,26 +3323,26 @@ html {
   font-weight: 700;
 }
 
-#mainNav .navbar-brand {
+/* #mainNav .navbar-brand {
   color: #fff;
-}
+} */
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link {
+/* #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
-}
+} */
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active,
+/* #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
-}
+} */
 
 #mainNav .navbar-toggler {
   font-size: 80%;
