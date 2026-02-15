@@ -63,3 +63,9 @@ PROFESSIONAL_IMPROVEMENTS.md
 # Backup files
 *.orig
 *_backup.*
+
+
+# other files
+missing info.md
+porfolio.md
+notes.md
